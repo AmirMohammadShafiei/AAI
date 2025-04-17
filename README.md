@@ -37,6 +37,9 @@ pip install -r requirements.txt
 
 این دستور ها رو بزن تا دیتا بیس درست بشه
 py manage.py makemigrations 
+
+
+
 py manage.py migrate     
 
 اجرای پروژه
