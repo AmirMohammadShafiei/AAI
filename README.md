@@ -34,13 +34,17 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
+
+این دستور ها رو بزن تا دیتا بیس درست بشه
+py manage.py makemigrations 
+py manage.py migrate     
+
 اجرای پروژه
 برای اجرای سرور توسعه جنگو، از دستور زیر استفاده کنید:
 python manage.py runserver
 پس از اجرای موفق، پروژه در آدرس زیر در دسترس خواهد بود:
 
 http://127.0.0.1:8000/
-
 
 
 
